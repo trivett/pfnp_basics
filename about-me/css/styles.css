@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #CFD11A;
+}
+
+p, li {
+  font-family: 'Cabin', sans-serif;
+}
+
+body {
+  background: url('../images/abstract-mosaic-background.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header, footer {
+  background: #595959;
+  color: #91C499;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+header img {
+  width: 50%;
+  border-radius: 15px;
+}
+
+.main-content {
+  background: #808F85;
+  padding: 10px 0;
+  border-top: 2px solid #CFD11A;
+}
+
+.main-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.main-content ul li {
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  color: #CFD11A;
+  text-decoration: none;
+}
+.main-content p {
+  margin: 10px 40px;
+}
+
+#projects {
+  background: #808F85;
+  margin: 0 auto
+}
+
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.project {
+  width: 30%;
+  display: inline-block;
+  background: #F2E9DC;
+  margin: 1.66%;
+  border-radius: 15px;
+  float: left;
+}
+
+.project h2 {
+  text-align: center;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+
+
